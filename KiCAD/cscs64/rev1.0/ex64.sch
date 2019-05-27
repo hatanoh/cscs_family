@@ -1,0 +1,1735 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C1
+U 1 1 5C378F17
+P 850 4700
+F 0 "C1" H 942 4746 50  0000 L CNN
+F 1 "1u" H 942 4655 50  0000 L CNN
+F 2 "ex64lib:C_1608SMD_reversible" H 850 4700 50  0001 C CNN
+F 3 "~" H 850 4700 50  0001 C CNN
+	1    850  4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 5C3889D2
+P 1800 4750
+F 0 "J1" H 1755 5075 50  0000 C CNN
+F 1 "I2C#1" H 1755 4984 50  0000 C CNN
+F 2 "ex64lib:TRRS_JACK_MJ4PP9" H 1800 4750 50  0001 C CNN
+F 3 "~" H 1800 4750 50  0001 C CNN
+	1    1800 4750
+	-1   0    0    1   
+$EndComp
+Text GLabel 1700 4150 2    50   Input ~ 0
+data
+Text GLabel 850  4450 1    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR04
+U 1 1 5C388D55
+P 850 4900
+F 0 "#PWR04" H 850 4650 50  0001 C CNN
+F 1 "GND" H 855 4727 50  0000 C CNN
+F 2 "" H 850 4900 50  0001 C CNN
+F 3 "" H 850 4900 50  0001 C CNN
+	1    850  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C42C025
+P 10500 800
+F 0 "H1" H 10600 846 50  0000 L CNN
+F 1 "MountingHole" H 10600 755 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 800 50  0001 C CNN
+F 3 "~" H 10500 800 50  0001 C CNN
+	1    10500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C42C296
+P 10500 1000
+F 0 "H2" H 10600 1046 50  0000 L CNN
+F 1 "MountingHole" H 10600 955 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 1000 50  0001 C CNN
+F 3 "~" H 10500 1000 50  0001 C CNN
+	1    10500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C42C3A0
+P 10500 1200
+F 0 "H3" H 10600 1246 50  0000 L CNN
+F 1 "MountingHole" H 10600 1155 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 1200 50  0001 C CNN
+F 3 "~" H 10500 1200 50  0001 C CNN
+	1    10500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C42C4B0
+P 10500 1400
+F 0 "H4" H 10600 1446 50  0000 L CNN
+F 1 "MountingHole" H 10600 1355 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 1400 50  0001 C CNN
+F 3 "~" H 10500 1400 50  0001 C CNN
+	1    10500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5C42C6CC
+P 10500 1600
+F 0 "H5" H 10600 1646 50  0000 L CNN
+F 1 "MountingHole" H 10600 1555 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 1600 50  0001 C CNN
+F 3 "~" H 10500 1600 50  0001 C CNN
+	1    10500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5C42C7AE
+P 10500 1800
+F 0 "H6" H 10600 1846 50  0000 L CNN
+F 1 "MountingHole" H 10600 1755 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 1800 50  0001 C CNN
+F 3 "~" H 10500 1800 50  0001 C CNN
+	1    10500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5C43AD5B
+P 10500 2000
+F 0 "H7" H 10600 2046 50  0000 L CNN
+F 1 "MountingHole" H 10600 1955 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2_TH" H 10500 2000 50  0001 C CNN
+F 3 "~" H 10500 2000 50  0001 C CNN
+	1    10500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C4ADD8A
+P 5700 1100
+F 0 "SW1" H 5700 1385 50  0000 C CNN
+F 1 "SW_Push" H 5700 1294 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 5700 1300 50  0001 C CNN
+F 3 "" H 5700 1300 50  0001 C CNN
+	1    5700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D1
+U 1 1 5C4ADEE8
+P 5900 1200
+F 0 "D1" V 5946 1132 50  0000 R CNN
+F 1 "D" V 5855 1132 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 5900 1200 50  0001 C CNN
+F 3 "~" V 5900 1200 50  0001 C CNN
+	1    5900 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C4B139C
+P 6400 1100
+F 0 "SW2" H 6400 1385 50  0000 C CNN
+F 1 "SW_Push" H 6400 1294 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 6400 1300 50  0001 C CNN
+F 3 "" H 6400 1300 50  0001 C CNN
+	1    6400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D2
+U 1 1 5C4B13A3
+P 6600 1200
+F 0 "D2" V 6646 1132 50  0000 R CNN
+F 1 "D" V 6555 1132 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 6600 1200 50  0001 C CNN
+F 3 "~" V 6600 1200 50  0001 C CNN
+	1    6600 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C4B43F7
+P 7100 1100
+F 0 "SW3" H 7100 1385 50  0000 C CNN
+F 1 "SW_Push" H 7100 1294 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7100 1300 50  0001 C CNN
+F 3 "" H 7100 1300 50  0001 C CNN
+	1    7100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D3
+U 1 1 5C4B43FE
+P 7300 1200
+F 0 "D3" V 7346 1132 50  0000 R CNN
+F 1 "D" V 7255 1132 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 7300 1200 50  0001 C CNN
+F 3 "~" V 7300 1200 50  0001 C CNN
+	1    7300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C4B4405
+P 7800 1100
+F 0 "SW4" H 7800 1385 50  0000 C CNN
+F 1 "SW_Push" H 7800 1294 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7800 1300 50  0001 C CNN
+F 3 "" H 7800 1300 50  0001 C CNN
+	1    7800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D4
+U 1 1 5C4B440C
+P 8000 1200
+F 0 "D4" V 8046 1132 50  0000 R CNN
+F 1 "D" V 7955 1132 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8000 1200 50  0001 C CNN
+F 3 "~" V 8000 1200 50  0001 C CNN
+	1    8000 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5C4B74C2
+P 8500 1100
+F 0 "SW5" H 8500 1385 50  0000 C CNN
+F 1 "SW_Push" H 8500 1294 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 8500 1300 50  0001 C CNN
+F 3 "" H 8500 1300 50  0001 C CNN
+	1    8500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D5
+U 1 1 5C4B74C9
+P 8700 1200
+F 0 "D5" V 8746 1132 50  0000 R CNN
+F 1 "D" V 8655 1132 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8700 1200 50  0001 C CNN
+F 3 "~" V 8700 1200 50  0001 C CNN
+	1    8700 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5C4B74D0
+P 9200 1100
+F 0 "SW6" H 9200 1385 50  0000 C CNN
+F 1 "SW_Push" H 9200 1294 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9200 1300 50  0001 C CNN
+F 3 "" H 9200 1300 50  0001 C CNN
+	1    9200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D6
+U 1 1 5C4B74D7
+P 9400 1200
+F 0 "D6" V 9446 1132 50  0000 R CNN
+F 1 "D" V 9355 1132 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 9400 1200 50  0001 C CNN
+F 3 "~" V 9400 1200 50  0001 C CNN
+	1    9400 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 1300 6600 1300
+Wire Wire Line
+	6600 1300 7300 1300
+Wire Wire Line
+	7300 1300 8000 1300
+Wire Wire Line
+	8000 1300 8700 1300
+Wire Wire Line
+	8700 1300 9400 1300
+Connection ~ 6600 1300
+Connection ~ 7300 1300
+Connection ~ 8000 1300
+Connection ~ 8700 1300
+Wire Wire Line
+	5200 1300 5900 1300
+Text GLabel 5200 1300 0    50   Input ~ 0
+R0
+Connection ~ 5900 1300
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5C4DFEF5
+P 5700 1750
+F 0 "SW7" H 5700 2035 50  0000 C CNN
+F 1 "SW_Push" H 5700 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 5700 1950 50  0001 C CNN
+F 3 "" H 5700 1950 50  0001 C CNN
+	1    5700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D7
+U 1 1 5C4DFEFC
+P 5900 1850
+F 0 "D7" V 5946 1782 50  0000 R CNN
+F 1 "D" V 5855 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 5900 1850 50  0001 C CNN
+F 3 "~" V 5900 1850 50  0001 C CNN
+	1    5900 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5C4DFF03
+P 6400 1750
+F 0 "SW8" H 6400 2035 50  0000 C CNN
+F 1 "SW_Push" H 6400 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 6400 1950 50  0001 C CNN
+F 3 "" H 6400 1950 50  0001 C CNN
+	1    6400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D8
+U 1 1 5C4DFF0A
+P 6600 1850
+F 0 "D8" V 6646 1782 50  0000 R CNN
+F 1 "D" V 6555 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 6600 1850 50  0001 C CNN
+F 3 "~" V 6600 1850 50  0001 C CNN
+	1    6600 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5C4DFF11
+P 7100 1750
+F 0 "SW9" H 7100 2035 50  0000 C CNN
+F 1 "SW_Push" H 7100 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7100 1950 50  0001 C CNN
+F 3 "" H 7100 1950 50  0001 C CNN
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D9
+U 1 1 5C4DFF18
+P 7300 1850
+F 0 "D9" V 7346 1782 50  0000 R CNN
+F 1 "D" V 7255 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 7300 1850 50  0001 C CNN
+F 3 "~" V 7300 1850 50  0001 C CNN
+	1    7300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5C4DFF1F
+P 7800 1750
+F 0 "SW10" H 7800 2035 50  0000 C CNN
+F 1 "SW_Push" H 7800 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7800 1950 50  0001 C CNN
+F 3 "" H 7800 1950 50  0001 C CNN
+	1    7800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D10
+U 1 1 5C4DFF26
+P 8000 1850
+F 0 "D10" V 8046 1782 50  0000 R CNN
+F 1 "D" V 7955 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8000 1850 50  0001 C CNN
+F 3 "~" V 8000 1850 50  0001 C CNN
+	1    8000 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5C4DFF2D
+P 8500 1750
+F 0 "SW11" H 8500 2035 50  0000 C CNN
+F 1 "SW_Push" H 8500 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 8500 1950 50  0001 C CNN
+F 3 "" H 8500 1950 50  0001 C CNN
+	1    8500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D11
+U 1 1 5C4DFF34
+P 8700 1850
+F 0 "D11" V 8746 1782 50  0000 R CNN
+F 1 "D" V 8655 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8700 1850 50  0001 C CNN
+F 3 "~" V 8700 1850 50  0001 C CNN
+	1    8700 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5C4DFF3B
+P 9200 1750
+F 0 "SW12" H 9200 2035 50  0000 C CNN
+F 1 "SW_Push" H 9200 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9200 1950 50  0001 C CNN
+F 3 "" H 9200 1950 50  0001 C CNN
+	1    9200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D12
+U 1 1 5C4DFF42
+P 9400 1850
+F 0 "D12" V 9446 1782 50  0000 R CNN
+F 1 "D" V 9355 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 9400 1850 50  0001 C CNN
+F 3 "~" V 9400 1850 50  0001 C CNN
+	1    9400 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 1950 6600 1950
+Wire Wire Line
+	6600 1950 7300 1950
+Wire Wire Line
+	7300 1950 8000 1950
+Wire Wire Line
+	8000 1950 8700 1950
+Wire Wire Line
+	8700 1950 9400 1950
+Connection ~ 6600 1950
+Connection ~ 7300 1950
+Connection ~ 8000 1950
+Connection ~ 8700 1950
+Wire Wire Line
+	5200 1950 5900 1950
+Text GLabel 5200 1950 0    50   Input ~ 0
+R1
+Connection ~ 5900 1950
+Wire Wire Line
+	6200 1100 6200 1750
+Wire Wire Line
+	6900 1100 6900 1750
+Wire Wire Line
+	7600 1100 7600 1750
+Wire Wire Line
+	8300 1100 8300 1750
+Wire Wire Line
+	9000 1100 9000 1750
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5C4F9B27
+P 5700 2400
+F 0 "SW14" H 5700 2685 50  0000 C CNN
+F 1 "SW_Push" H 5700 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 5700 2600 50  0001 C CNN
+F 3 "" H 5700 2600 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D14
+U 1 1 5C4F9B2E
+P 5900 2500
+F 0 "D14" V 5946 2432 50  0000 R CNN
+F 1 "D" V 5855 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 5900 2500 50  0001 C CNN
+F 3 "~" V 5900 2500 50  0001 C CNN
+	1    5900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5C4F9B35
+P 6400 2400
+F 0 "SW15" H 6400 2685 50  0000 C CNN
+F 1 "SW_Push" H 6400 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 6400 2600 50  0001 C CNN
+F 3 "" H 6400 2600 50  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D15
+U 1 1 5C4F9B3C
+P 6600 2500
+F 0 "D15" V 6646 2432 50  0000 R CNN
+F 1 "D" V 6555 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 6600 2500 50  0001 C CNN
+F 3 "~" V 6600 2500 50  0001 C CNN
+	1    6600 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5C4F9B43
+P 7100 2400
+F 0 "SW16" H 7100 2685 50  0000 C CNN
+F 1 "SW_Push" H 7100 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7100 2600 50  0001 C CNN
+F 3 "" H 7100 2600 50  0001 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D16
+U 1 1 5C4F9B4A
+P 7300 2500
+F 0 "D16" V 7346 2432 50  0000 R CNN
+F 1 "D" V 7255 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 7300 2500 50  0001 C CNN
+F 3 "~" V 7300 2500 50  0001 C CNN
+	1    7300 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5C4F9B51
+P 7800 2400
+F 0 "SW17" H 7800 2685 50  0000 C CNN
+F 1 "SW_Push" H 7800 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7800 2600 50  0001 C CNN
+F 3 "" H 7800 2600 50  0001 C CNN
+	1    7800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D17
+U 1 1 5C4F9B58
+P 8000 2500
+F 0 "D17" V 8046 2432 50  0000 R CNN
+F 1 "D" V 7955 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8000 2500 50  0001 C CNN
+F 3 "~" V 8000 2500 50  0001 C CNN
+	1    8000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5C4F9B5F
+P 8500 2400
+F 0 "SW18" H 8500 2685 50  0000 C CNN
+F 1 "SW_Push" H 8500 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 8500 2600 50  0001 C CNN
+F 3 "" H 8500 2600 50  0001 C CNN
+	1    8500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D18
+U 1 1 5C4F9B66
+P 8700 2500
+F 0 "D18" V 8746 2432 50  0000 R CNN
+F 1 "D" V 8655 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8700 2500 50  0001 C CNN
+F 3 "~" V 8700 2500 50  0001 C CNN
+	1    8700 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5C4F9B6D
+P 9200 2400
+F 0 "SW19" H 9200 2685 50  0000 C CNN
+F 1 "SW_Push" H 9200 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9200 2600 50  0001 C CNN
+F 3 "" H 9200 2600 50  0001 C CNN
+	1    9200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D19
+U 1 1 5C4F9B74
+P 9400 2500
+F 0 "D19" V 9446 2432 50  0000 R CNN
+F 1 "D" V 9355 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 9400 2500 50  0001 C CNN
+F 3 "~" V 9400 2500 50  0001 C CNN
+	1    9400 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 2600 6600 2600
+Wire Wire Line
+	6600 2600 7300 2600
+Wire Wire Line
+	7300 2600 8000 2600
+Wire Wire Line
+	8000 2600 8700 2600
+Wire Wire Line
+	8700 2600 9400 2600
+Connection ~ 6600 2600
+Connection ~ 7300 2600
+Connection ~ 8000 2600
+Connection ~ 8700 2600
+Wire Wire Line
+	5200 2600 5900 2600
+Text GLabel 5200 2600 0    50   Input ~ 0
+R2
+Connection ~ 5900 2600
+Wire Wire Line
+	5500 1750 5500 2400
+Wire Wire Line
+	6200 1750 6200 2400
+Wire Wire Line
+	6900 1750 6900 2400
+Wire Wire Line
+	7600 1750 7600 2400
+Wire Wire Line
+	8300 1750 8300 2400
+Wire Wire Line
+	9000 1750 9000 2400
+Connection ~ 9000 1750
+Connection ~ 8300 1750
+Connection ~ 7600 1750
+Connection ~ 6200 1750
+Connection ~ 5500 1750
+Connection ~ 5500 2400
+Connection ~ 6200 2400
+Connection ~ 6900 2400
+Connection ~ 7600 2400
+Connection ~ 8300 2400
+Connection ~ 9000 2400
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5C4FEB5C
+P 5700 3050
+F 0 "SW21" H 5700 3335 50  0000 C CNN
+F 1 "SW_Push" H 5700 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 5700 3250 50  0001 C CNN
+F 3 "" H 5700 3250 50  0001 C CNN
+	1    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D21
+U 1 1 5C4FEB63
+P 5900 3150
+F 0 "D21" V 5946 3082 50  0000 R CNN
+F 1 "D" V 5855 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 5900 3150 50  0001 C CNN
+F 3 "~" V 5900 3150 50  0001 C CNN
+	1    5900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5C4FEB6A
+P 6400 3050
+F 0 "SW22" H 6400 3335 50  0000 C CNN
+F 1 "SW_Push" H 6400 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 6400 3250 50  0001 C CNN
+F 3 "" H 6400 3250 50  0001 C CNN
+	1    6400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D22
+U 1 1 5C4FEB71
+P 6600 3150
+F 0 "D22" V 6646 3082 50  0000 R CNN
+F 1 "D" V 6555 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 6600 3150 50  0001 C CNN
+F 3 "~" V 6600 3150 50  0001 C CNN
+	1    6600 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5C4FEB78
+P 7100 3050
+F 0 "SW23" H 7100 3335 50  0000 C CNN
+F 1 "SW_Push" H 7100 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7100 3250 50  0001 C CNN
+F 3 "" H 7100 3250 50  0001 C CNN
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D23
+U 1 1 5C4FEB7F
+P 7300 3150
+F 0 "D23" V 7346 3082 50  0000 R CNN
+F 1 "D" V 7255 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 7300 3150 50  0001 C CNN
+F 3 "~" V 7300 3150 50  0001 C CNN
+	1    7300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5C4FEB86
+P 7800 3050
+F 0 "SW24" H 7800 3335 50  0000 C CNN
+F 1 "SW_Push" H 7800 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7800 3250 50  0001 C CNN
+F 3 "" H 7800 3250 50  0001 C CNN
+	1    7800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D24
+U 1 1 5C4FEB8D
+P 8000 3150
+F 0 "D24" V 8046 3082 50  0000 R CNN
+F 1 "D" V 7955 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8000 3150 50  0001 C CNN
+F 3 "~" V 8000 3150 50  0001 C CNN
+	1    8000 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5C4FEB94
+P 8500 3050
+F 0 "SW25" H 8500 3335 50  0000 C CNN
+F 1 "SW_Push" H 8500 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 8500 3250 50  0001 C CNN
+F 3 "" H 8500 3250 50  0001 C CNN
+	1    8500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D25
+U 1 1 5C4FEB9B
+P 8700 3150
+F 0 "D25" V 8746 3082 50  0000 R CNN
+F 1 "D" V 8655 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8700 3150 50  0001 C CNN
+F 3 "~" V 8700 3150 50  0001 C CNN
+	1    8700 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5C4FEBA2
+P 9200 3050
+F 0 "SW26" H 9200 3335 50  0000 C CNN
+F 1 "SW_Push" H 9200 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9200 3250 50  0001 C CNN
+F 3 "" H 9200 3250 50  0001 C CNN
+	1    9200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D26
+U 1 1 5C4FEBA9
+P 9400 3150
+F 0 "D26" V 9446 3082 50  0000 R CNN
+F 1 "D" V 9355 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 9400 3150 50  0001 C CNN
+F 3 "~" V 9400 3150 50  0001 C CNN
+	1    9400 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3250 6600 3250
+Wire Wire Line
+	6600 3250 7300 3250
+Wire Wire Line
+	7300 3250 8000 3250
+Wire Wire Line
+	8000 3250 8700 3250
+Wire Wire Line
+	8700 3250 9400 3250
+Connection ~ 6600 3250
+Connection ~ 7300 3250
+Connection ~ 8000 3250
+Connection ~ 8700 3250
+Wire Wire Line
+	5200 3250 5900 3250
+Text GLabel 5200 3250 0    50   Input ~ 0
+R3
+Connection ~ 5900 3250
+Wire Wire Line
+	5500 2400 5500 3050
+Wire Wire Line
+	6200 2400 6200 3050
+Wire Wire Line
+	6900 2400 6900 3050
+Wire Wire Line
+	7600 2400 7600 3050
+Wire Wire Line
+	8300 2400 8300 3050
+Wire Wire Line
+	9000 2400 9000 3050
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5C4FEBC2
+P 5700 3700
+F 0 "SW28" H 5700 3985 50  0000 C CNN
+F 1 "SW_Push" H 5700 3894 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 5700 3900 50  0001 C CNN
+F 3 "" H 5700 3900 50  0001 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D28
+U 1 1 5C4FEBC9
+P 5900 3800
+F 0 "D28" V 5946 3732 50  0000 R CNN
+F 1 "D" V 5855 3732 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 5900 3800 50  0001 C CNN
+F 3 "~" V 5900 3800 50  0001 C CNN
+	1    5900 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5C4FEBDE
+P 7100 3700
+F 0 "SW29" H 7100 3985 50  0000 C CNN
+F 1 "SW_Push" H 7100 3894 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7100 3900 50  0001 C CNN
+F 3 "" H 7100 3900 50  0001 C CNN
+	1    7100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D29
+U 1 1 5C4FEBE5
+P 7300 3800
+F 0 "D29" V 7346 3732 50  0000 R CNN
+F 1 "D" V 7255 3732 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 7300 3800 50  0001 C CNN
+F 3 "~" V 7300 3800 50  0001 C CNN
+	1    7300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5C4FEBEC
+P 7800 3700
+F 0 "SW30" H 7800 3985 50  0000 C CNN
+F 1 "SW_Push" H 7800 3894 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 7800 3900 50  0001 C CNN
+F 3 "" H 7800 3900 50  0001 C CNN
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D30
+U 1 1 5C4FEBF3
+P 8000 3800
+F 0 "D30" V 8046 3732 50  0000 R CNN
+F 1 "D" V 7955 3732 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8000 3800 50  0001 C CNN
+F 3 "~" V 8000 3800 50  0001 C CNN
+	1    8000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5C4FEC08
+P 8500 3700
+F 0 "SW31" H 8500 3985 50  0000 C CNN
+F 1 "SW_Push" H 8500 3894 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 8500 3900 50  0001 C CNN
+F 3 "" H 8500 3900 50  0001 C CNN
+	1    8500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D31
+U 1 1 5C4FEC0F
+P 8700 3800
+F 0 "D31" V 8746 3732 50  0000 R CNN
+F 1 "D" V 8655 3732 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 8700 3800 50  0001 C CNN
+F 3 "~" V 8700 3800 50  0001 C CNN
+	1    8700 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7300 3900 8000 3900
+Connection ~ 7300 3900
+Connection ~ 8000 3900
+Wire Wire Line
+	5200 3900 5900 3900
+Text GLabel 5200 3900 0    50   Input ~ 0
+R4
+Connection ~ 5900 3900
+Wire Wire Line
+	5500 3050 5500 3700
+Wire Wire Line
+	6900 3050 6900 3700
+Wire Wire Line
+	7600 3050 7600 3700
+Wire Wire Line
+	8300 3050 8300 3700
+Connection ~ 9000 3050
+Connection ~ 7600 3050
+Connection ~ 5500 3050
+Wire Wire Line
+	5500 1100 5500 750 
+Connection ~ 5500 1100
+Wire Wire Line
+	5500 1100 5500 1750
+Text GLabel 5500 750  1    50   Input ~ 0
+C0
+Wire Wire Line
+	6200 1100 6200 750 
+Text GLabel 6200 750  1    50   Input ~ 0
+C1
+Wire Wire Line
+	6900 1100 6900 750 
+Text GLabel 6900 750  1    50   Input ~ 0
+C2
+Wire Wire Line
+	7600 1100 7600 750 
+Text GLabel 7600 750  1    50   Input ~ 0
+C3
+Wire Wire Line
+	8300 1100 8300 750 
+Text GLabel 8300 750  1    50   Input ~ 0
+C4
+Wire Wire Line
+	9000 1100 9000 750 
+Text GLabel 9000 750  1    50   Input ~ 0
+C5
+Connection ~ 9000 1100
+Connection ~ 8300 1100
+Connection ~ 7600 1100
+Connection ~ 6200 1100
+Wire Wire Line
+	5900 3900 7300 3900
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5C53B8FD
+P 9900 1750
+F 0 "SW13" H 9900 2035 50  0000 C CNN
+F 1 "SW_Push" H 9900 1944 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9900 1950 50  0001 C CNN
+F 3 "" H 9900 1950 50  0001 C CNN
+	1    9900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D13
+U 1 1 5C53B904
+P 10100 1850
+F 0 "D13" V 10146 1782 50  0000 R CNN
+F 1 "D" V 10055 1782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 10100 1850 50  0001 C CNN
+F 3 "~" V 10100 1850 50  0001 C CNN
+	1    10100 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 1950 10100 1950
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5C53B90D
+P 9900 2400
+F 0 "SW20" H 9900 2685 50  0000 C CNN
+F 1 "SW_Push" H 9900 2594 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9900 2600 50  0001 C CNN
+F 3 "" H 9900 2600 50  0001 C CNN
+	1    9900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D20
+U 1 1 5C53B914
+P 10100 2500
+F 0 "D20" V 10146 2432 50  0000 R CNN
+F 1 "D" V 10055 2432 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 10100 2500 50  0001 C CNN
+F 3 "~" V 10100 2500 50  0001 C CNN
+	1    10100 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 2600 10100 2600
+Wire Wire Line
+	9700 1750 9700 2400
+Connection ~ 9700 1750
+Connection ~ 9700 2400
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5C53B91F
+P 9900 3050
+F 0 "SW27" H 9900 3335 50  0000 C CNN
+F 1 "SW_Push" H 9900 3244 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3" H 9900 3250 50  0001 C CNN
+F 3 "" H 9900 3250 50  0001 C CNN
+	1    9900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D27
+U 1 1 5C53B926
+P 10100 3150
+F 0 "D27" V 10146 3082 50  0000 R CNN
+F 1 "D" V 10055 3082 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 10100 3150 50  0001 C CNN
+F 3 "~" V 10100 3150 50  0001 C CNN
+	1    10100 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 3250 10100 3250
+Wire Wire Line
+	9700 2400 9700 3050
+$Comp
+L Switch:SW_Push SW32
+U 1 1 5C53B92F
+P 9200 3700
+F 0 "SW32" H 9200 3985 50  0000 C CNN
+F 1 "SW_Push" H 9200 3894 50  0000 C CNN
+F 2 "ex64lib:CPG151101S11_reversible3_1.50h" H 9200 3900 50  0001 C CNN
+F 3 "" H 9200 3900 50  0001 C CNN
+	1    9200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small_ALT D32
+U 1 1 5C53B936
+P 9400 3800
+F 0 "D32" V 9446 3732 50  0000 R CNN
+F 1 "D" V 9355 3732 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD123_Reversible" V 9400 3800 50  0001 C CNN
+F 3 "~" V 9400 3800 50  0001 C CNN
+	1    9400 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 3050 9000 3700
+Text GLabel 9700 750  1    50   Input ~ 0
+C6
+Connection ~ 9400 1950
+Connection ~ 9400 2600
+Connection ~ 9400 3250
+Wire Wire Line
+	8000 3900 8700 3900
+Wire Wire Line
+	9700 750  9700 1750
+Connection ~ 6900 1100
+Connection ~ 6900 1750
+Connection ~ 6900 3050
+Text GLabel 2200 1350 0    50   Input ~ 0
+SCL
+Text GLabel 2200 1450 0    50   Input ~ 0
+SDA
+Text GLabel 2200 1550 0    50   Input ~ 0
+R0
+Text GLabel 2200 1650 0    50   Input ~ 0
+R1
+Text GLabel 2200 1750 0    50   Input ~ 0
+R2
+Text GLabel 2200 1850 0    50   Input ~ 0
+R3
+Text GLabel 2200 1950 0    50   Input ~ 0
+R4
+Text GLabel 3800 1350 2    50   Input ~ 0
+C0
+Text GLabel 3800 1450 2    50   Input ~ 0
+C1
+Text GLabel 3800 1550 2    50   Input ~ 0
+C2
+Text GLabel 3800 1650 2    50   Input ~ 0
+C3
+Text GLabel 3800 1750 2    50   Input ~ 0
+C4
+Text GLabel 3800 1850 2    50   Input ~ 0
+C5
+Text GLabel 3800 1950 2    50   Input ~ 0
+C6
+Text GLabel 3600 1150 2    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR03
+U 1 1 5C56361C
+P 1800 1300
+F 0 "#PWR03" H 1800 1050 50  0001 C CNN
+F 1 "GND" H 1805 1127 50  0000 C CNN
+F 2 "" H 1800 1300 50  0001 C CNN
+F 3 "" H 1800 1300 50  0001 C CNN
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1250 1800 1250
+Wire Wire Line
+	1800 1250 1800 1300
+Wire Wire Line
+	2200 1150 1800 1150
+Wire Wire Line
+	1800 1150 1800 1250
+Connection ~ 1800 1250
+$Comp
+L power:GND #PWR02
+U 1 1 5C5661E0
+P 3950 1050
+F 0 "#PWR02" H 3950 800 50  0001 C CNN
+F 1 "GND" H 3955 877 50  0000 C CNN
+F 2 "" H 3950 1050 50  0001 C CNN
+F 3 "" H 3950 1050 50  0001 C CNN
+	1    3950 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1050 3950 1050
+Text GLabel 3600 1250 2    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR01
+U 1 1 5C568623
+P 1500 1050
+F 0 "#PWR01" H 1500 800 50  0001 C CNN
+F 1 "GND" H 1505 877 50  0000 C CNN
+F 2 "" H 1500 1050 50  0001 C CNN
+F 3 "" H 1500 1050 50  0001 C CNN
+	1    1500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5C5686F5
+P 1500 1050
+F 0 "#FLG03" H 1500 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1500 1224 50  0000 C CNN
+F 2 "" H 1500 1050 50  0001 C CNN
+F 3 "~" H 1500 1050 50  0001 C CNN
+	1    1500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5C56883F
+P 800 900
+F 0 "#FLG01" H 800 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 800 1073 50  0000 C CNN
+F 2 "" H 800 900 50  0001 C CNN
+F 3 "~" H 800 900 50  0001 C CNN
+	1    800  900 
+	-1   0    0    1   
+$EndComp
+Text GLabel 800  850  1    50   Input ~ 0
+VCC
+Wire Wire Line
+	800  900  800  850 
+$Comp
+L Switch:SW_Push SW33
+U 1 1 5C57C1A0
+P 2350 4850
+F 0 "SW33" H 2350 5135 50  0000 C CNN
+F 1 "SW_RST" H 2350 5044 50  0000 C CNN
+F 2 "ex64lib:TACT_SWITCH_TVBP06" H 2350 5050 50  0001 C CNN
+F 3 "" H 2350 5050 50  0001 C CNN
+	1    2350 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5C57C289
+P 2350 5050
+F 0 "#PWR05" H 2350 4800 50  0001 C CNN
+F 1 "GND" H 2355 4877 50  0000 C CNN
+F 2 "" H 2350 5050 50  0001 C CNN
+F 3 "" H 2350 5050 50  0001 C CNN
+	1    2350 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 4650 1    50   Input ~ 0
+RST
+Text GLabel 3600 850  2    50   Input ~ 0
+BAT
+NoConn ~ 3600 950 
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5C480258
+P 950 6300
+F 0 "BT1" V 1205 6350 50  0000 C CNN
+F 1 "Battery_Cell" V 1114 6350 50  0000 C CNN
+F 2 "ex64lib:BatteryHolder_Keystone_2466_1xAAA_reversible" V 950 6360 50  0001 C CNN
+F 3 "~" V 950 6360 50  0001 C CNN
+	1    950  6300
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5C48AC9D
+P 850 6600
+F 0 "#PWR010" H 850 6350 50  0001 C CNN
+F 1 "GND" H 855 6427 50  0000 C CNN
+F 2 "" H 850 6600 50  0001 C CNN
+F 3 "" H 850 6600 50  0001 C CNN
+	1    850  6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4650 1600 4650
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C47FD6B
+P 1200 900
+F 0 "#FLG02" H 1200 975 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 1073 50  0000 C CNN
+F 2 "" H 1200 900 50  0001 C CNN
+F 3 "~" H 1200 900 50  0001 C CNN
+	1    1200 900 
+	-1   0    0    1   
+$EndComp
+Text GLabel 1200 850  1    50   Input ~ 0
+cell
+Wire Wire Line
+	1200 900  1200 850 
+Text GLabel 2200 1050 0    50   Input ~ 0
+data
+Text GLabel 3100 5250 3    50   Input ~ 0
+SDA
+Text GLabel 2800 5250 3    50   Input ~ 0
+SCL
+$Comp
+L Device:R_Small_US R2
+U 1 1 5C4E0033
+P 2800 5050
+F 0 "R2" H 2868 5096 50  0000 L CNN
+F 1 "2.2k" H 2868 5005 50  0000 L CNN
+F 2 "ex64lib:R_1608SMD_reversible" H 2800 5050 50  0001 C CNN
+F 3 "~" H 2800 5050 50  0001 C CNN
+	1    2800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5C4E003A
+P 3100 5050
+F 0 "R3" H 3168 5096 50  0000 L CNN
+F 1 "2.2k" H 3168 5005 50  0000 L CNN
+F 2 "ex64lib:R_1608SMD_reversible" H 3100 5050 50  0001 C CNN
+F 3 "~" H 3100 5050 50  0001 C CNN
+	1    3100 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2800 4650 1    50   Input ~ 0
+VCC
+Text GLabel 3100 4650 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	3100 5150 3100 5250
+Wire Wire Line
+	2800 5150 2800 5250
+Text Label 3600 1750 0    50   ~ 0
+SCK
+Text Label 3600 1850 0    50   ~ 0
+MISO
+Text Label 3600 1950 0    50   ~ 0
+MOSI
+Wire Wire Line
+	3600 1650 3800 1650
+Wire Wire Line
+	3800 1750 3600 1750
+Wire Wire Line
+	3600 1850 3800 1850
+Wire Wire Line
+	3600 1950 3800 1950
+Wire Wire Line
+	3600 1350 3800 1350
+Wire Wire Line
+	3600 1450 3800 1450
+Wire Wire Line
+	3600 1550 3800 1550
+Text GLabel 2200 2050 0    50   Input ~ 0
+buzz
+Wire Wire Line
+	1450 4750 1600 4750
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5C54C3CA
+P 1450 5050
+F 0 "JP3" V 1404 5118 50  0000 L CNN
+F 1 "JP R2" V 1495 5118 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1450 5050 50  0001 C CNN
+F 3 "~" H 1450 5050 50  0001 C CNN
+	1    1450 5050
+	0    1    1    0   
+$EndComp
+Text GLabel 1450 5250 3    50   Input ~ 0
+SDA
+Text GLabel 1100 4150 0    50   Input ~ 0
+SCL
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 5C5734BE
+P 1450 4150
+F 0 "JP1" H 1450 4355 50  0000 C CNN
+F 1 "JP R1" H 1450 4264 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 1450 4150 50  0001 C CNN
+F 3 "~" H 1450 4150 50  0001 C CNN
+	1    1450 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4750 1450 4900
+Wire Wire Line
+	1450 4300 1450 4650
+Wire Wire Line
+	1450 5250 1450 5200
+Wire Wire Line
+	850  4800 850  4850
+Wire Wire Line
+	850  4450 850  4550
+Wire Wire Line
+	850  4550 1600 4550
+Connection ~ 850  4550
+Wire Wire Line
+	850  4550 850  4600
+Wire Wire Line
+	850  4850 1600 4850
+Connection ~ 850  4850
+Wire Wire Line
+	850  4850 850  4900
+Wire Wire Line
+	1150 6300 1250 6300
+Connection ~ 8300 3050
+Connection ~ 8700 3900
+Wire Wire Line
+	8700 3900 9400 3900
+NoConn ~ 1650 6400
+$Comp
+L Device:Speaker LS1
+U 1 1 5C6D2E5C
+P 3700 4950
+F 0 "LS1" H 3870 4946 50  0000 L CNN
+F 1 "Speaker" H 3870 4855 50  0000 L CNN
+F 2 "ex64lib:PKLCS1212E4001" H 3700 4750 50  0001 C CNN
+F 3 "~" H 3690 4900 50  0001 C CNN
+	1    3700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C6E0D09
+P 3450 5150
+F 0 "#PWR06" H 3450 4900 50  0001 C CNN
+F 1 "GND" H 3455 4977 50  0000 C CNN
+F 2 "" H 3450 5150 50  0001 C CNN
+F 3 "" H 3450 5150 50  0001 C CNN
+	1    3450 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5050 3450 5050
+Wire Wire Line
+	3450 5050 3450 5150
+$Comp
+L Device:R_Small_US R1
+U 1 1 5C6EB64A
+P 3450 4800
+F 0 "R1" H 3518 4846 50  0000 L CNN
+F 1 "1k" H 3518 4755 50  0000 L CNN
+F 2 "ex64lib:R_1608SMD_reversible" H 3450 4800 50  0001 C CNN
+F 3 "~" H 3450 4800 50  0001 C CNN
+	1    3450 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4900 3450 4950
+Wire Wire Line
+	3450 4950 3500 4950
+Text GLabel 3450 4650 1    50   Input ~ 0
+buzz
+Wire Wire Line
+	1100 4150 1250 4150
+Wire Wire Line
+	850  6300 850  6600
+$Comp
+L Switch:SW_SPDT SW34
+U 1 1 5C4F0477
+P 1450 6300
+F 0 "SW34" H 1450 6585 50  0000 C CNN
+F 1 "SW_PWR" H 1450 6494 50  0000 C CNN
+F 2 "ex64lib:SLIDE_SWITCH_SK-12D01" H 1450 6300 50  0001 C CNN
+F 3 "" H 1450 6300 50  0001 C CNN
+	1    1450 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4150 1700 4150
+$Comp
+L Device:C_Small C2
+U 1 1 5C733D5D
+P 4500 5450
+F 0 "C2" H 4592 5496 50  0000 L CNN
+F 1 "10uF" H 4592 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4500 5450 50  0001 C CNN
+F 3 "~" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5C733EB6
+P 5850 5450
+F 0 "C3" H 5942 5496 50  0000 L CNN
+F 1 "10uF" H 5942 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 5450 50  0001 C CNN
+F 3 "~" H 5850 5450 50  0001 C CNN
+	1    5850 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L1
+U 1 1 5C733FFB
+P 4850 4750
+F 0 "L1" V 4672 4750 50  0000 C CNN
+F 1 "4.7uH" V 4763 4750 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-30xx_HandSoldering" H 4850 4750 50  0001 C CNN
+F 3 "~" H 4850 4750 50  0001 C CNN
+	1    4850 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4750 4700 4750
+Wire Wire Line
+	4700 4750 4700 4950
+Wire Wire Line
+	4850 5100 4700 5100
+Connection ~ 4700 5100
+Wire Wire Line
+	4950 4750 5800 4750
+Wire Wire Line
+	5800 5200 5750 5200
+Wire Wire Line
+	4700 5100 4500 5100
+$Comp
+L power:GND #PWR07
+U 1 1 5C77A04C
+P 4850 5650
+F 0 "#PWR07" H 4850 5400 50  0001 C CNN
+F 1 "GND" H 4855 5477 50  0000 C CNN
+F 2 "" H 4850 5650 50  0001 C CNN
+F 3 "" H 4850 5650 50  0001 C CNN
+	1    4850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4750 5800 5200
+Wire Wire Line
+	4850 5300 4850 5600
+Connection ~ 4850 5600
+Wire Wire Line
+	4850 5600 4850 5650
+Wire Wire Line
+	4850 5200 4800 5200
+Wire Wire Line
+	4800 5200 4800 5450
+Wire Wire Line
+	4800 5450 5750 5450
+Wire Wire Line
+	5750 5450 5750 5300
+Wire Wire Line
+	5850 5600 5850 5550
+Wire Wire Line
+	4850 5600 5850 5600
+Wire Wire Line
+	5750 5300 5850 5300
+Wire Wire Line
+	5850 5300 5850 5350
+Wire Wire Line
+	5750 5100 5750 4950
+Wire Wire Line
+	5750 4950 4700 4950
+Connection ~ 4700 4950
+Wire Wire Line
+	4700 4950 4700 5100
+Text GLabel 5900 5300 2    50   Input ~ 0
+BAT
+Wire Wire Line
+	5850 5300 5900 5300
+Connection ~ 5850 5300
+Wire Wire Line
+	4850 5600 4500 5600
+Wire Wire Line
+	4500 5600 4500 5550
+Wire Wire Line
+	4500 5100 4500 5350
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5C7327F1
+P 10500 2300
+F 0 "H8" H 10600 2346 50  0000 L CNN
+F 1 "MountingHole" H 10600 2255 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2" H 10500 2300 50  0001 C CNN
+F 3 "~" H 10500 2300 50  0001 C CNN
+	1    10500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5C7327F8
+P 10500 2500
+F 0 "H9" H 10600 2546 50  0000 L CNN
+F 1 "MountingHole" H 10600 2455 50  0000 L CNN
+F 2 "ex64lib:HOLE_M2" H 10500 2500 50  0001 C CNN
+F 3 "~" H 10500 2500 50  0001 C CNN
+	1    10500 2500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 6200 2    50   Input ~ 0
+cell
+Text GLabel 4500 4650 1    50   Input ~ 0
+cell
+Connection ~ 4500 5100
+Wire Wire Line
+	4500 4650 4500 5100
+$Comp
+L Device:D_Small_ALT D33
+U 1 1 5C757C9A
+P 2800 4850
+F 0 "D33" V 2846 4782 50  0000 R CNN
+F 1 "D" V 2755 4782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD323_Reversible" V 2800 4850 50  0001 C CNN
+F 3 "~" V 2800 4850 50  0001 C CNN
+	1    2800 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 4650 2800 4750
+$Comp
+L Device:D_Small_ALT D34
+U 1 1 5C75F576
+P 3100 4850
+F 0 "D34" V 3146 4782 50  0000 R CNN
+F 1 "D" V 3055 4782 50  0000 R CNN
+F 2 "ex64lib:Diode_SOD323_Reversible" V 3100 4850 50  0001 C CNN
+F 3 "~" V 3100 4850 50  0001 C CNN
+	1    3100 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 4650 3100 4750
+$Comp
+L ex64lib:TPS61221 U2
+U 1 1 5C8799D6
+P 5300 5200
+F 0 "U2" H 5300 5565 50  0000 C CNN
+F 1 "TPS61221" H 5300 5474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 5300 5200 50  0001 C CNN
+F 3 "" H 5300 5200 50  0001 C CNN
+	1    5300 5200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 5300
+NoConn ~ -2250 50  
+NoConn ~ 3600 2050
+Wire Wire Line
+	3450 4650 3450 4700
+NoConn ~ 2200 950 
+$Comp
+L ex64lib:BLE-Micro-Pro-2 U1
+U 1 1 5CB28A71
+P 2900 1450
+F 0 "U1" H 2900 2337 60  0000 C CNN
+F 1 "BLE-Micro-Pro-2" H 2900 2231 60  0000 C CNN
+F 2 "ex64lib:BLEMicroPro-2" H 3000 400 60  0001 C CNN
+F 3 "" H 3000 400 60  0000 C CNN
+	1    2900 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 5300 2    50   Input ~ 0
+BAT
+$Comp
+L ex64lib:TPS61221 U3
+U 1 1 5C9E32AC
+P 7350 5200
+F 0 "U3" H 7350 5565 50  0000 C CNN
+F 1 "TPS61221" H 7350 5474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" H 7350 5200 50  0001 C CNN
+F 3 "" H 7350 5200 50  0001 C CNN
+	1    7350 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6550 4650 1    50   Input ~ 0
+cell
+Wire Wire Line
+	6550 5600 6550 5550
+Wire Wire Line
+	7900 5300 7950 5300
+Wire Wire Line
+	6750 4950 6750 5100
+Wire Wire Line
+	7800 4950 6750 4950
+Wire Wire Line
+	7800 5100 7800 4950
+Wire Wire Line
+	7900 5300 7900 5350
+Connection ~ 7900 5300
+Wire Wire Line
+	7800 5300 7900 5300
+Wire Wire Line
+	7900 5600 7900 5550
+Connection ~ 7800 5300
+Wire Wire Line
+	7800 5450 7800 5300
+Wire Wire Line
+	6850 5450 7800 5450
+Wire Wire Line
+	6850 5200 6850 5450
+Wire Wire Line
+	6900 5200 6850 5200
+Wire Wire Line
+	6900 5600 6900 5650
+Wire Wire Line
+	6900 5600 6550 5600
+Wire Wire Line
+	6900 5600 7900 5600
+Connection ~ 6900 5600
+Wire Wire Line
+	6900 5300 6900 5600
+Wire Wire Line
+	7850 4750 7850 5200
+$Comp
+L power:GND #PWR08
+U 1 1 5C9E328D
+P 6900 5650
+F 0 "#PWR08" H 6900 5400 50  0001 C CNN
+F 1 "GND" H 6905 5477 50  0000 C CNN
+F 2 "" H 6900 5650 50  0001 C CNN
+F 3 "" H 6900 5650 50  0001 C CNN
+	1    6900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4650 6550 5100
+Wire Wire Line
+	6550 5100 6550 5350
+Connection ~ 6550 5100
+Wire Wire Line
+	6750 5100 6550 5100
+Wire Wire Line
+	7850 5200 7800 5200
+Wire Wire Line
+	7000 4750 7850 4750
+Connection ~ 6750 5100
+Wire Wire Line
+	6900 5100 6750 5100
+Connection ~ 6750 4950
+Wire Wire Line
+	6750 4750 6750 4950
+Wire Wire Line
+	6800 4750 6750 4750
+$Comp
+L Device:L_Small L2
+U 1 1 5C9E3280
+P 6900 4750
+F 0 "L2" V 6722 4750 50  0000 C CNN
+F 1 "4.7uH" V 6813 4750 50  0000 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-30xx_HandSoldering" H 6900 4750 50  0001 C CNN
+F 3 "~" H 6900 4750 50  0001 C CNN
+	1    6900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5C9E327A
+P 7900 5450
+F 0 "C5" H 7992 5496 50  0000 L CNN
+F 1 "10uF" H 7992 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7900 5450 50  0001 C CNN
+F 3 "~" H 7900 5450 50  0001 C CNN
+	1    7900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5C9E3274
+P 6550 5450
+F 0 "C4" H 6642 5496 50  0000 L CNN
+F 1 "10uF" H 6642 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6550 5450 50  0001 C CNN
+F 3 "~" H 6550 5450 50  0001 C CNN
+	1    6550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ex64lib:M-05720 U4
+U 1 1 5C880456
+P 8950 5300
+F 0 "U4" H 8950 5675 50  0000 C CNN
+F 1 "M-05720" H 8950 5584 50  0000 C CNN
+F 2 "ex64lib:M-05720" H 8950 5050 50  0001 C CNN
+F 3 "" H 8950 5050 50  0001 C CNN
+	1    8950 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 5450 2    50   Input ~ 0
+BAT
+Wire Wire Line
+	9400 5450 9500 5450
+Connection ~ 9400 5450
+Wire Wire Line
+	9400 5550 9400 5450
+Wire Wire Line
+	8450 5550 9400 5550
+Wire Wire Line
+	8450 5350 8450 5550
+Wire Wire Line
+	8500 5350 8450 5350
+Wire Wire Line
+	8400 5650 8400 5600
+$Comp
+L power:GND #PWR09
+U 1 1 5C7A6365
+P 8400 5650
+F 0 "#PWR09" H 8400 5400 50  0001 C CNN
+F 1 "GND" H 8405 5477 50  0000 C CNN
+F 2 "" H 8400 5650 50  0001 C CNN
+F 3 "" H 8400 5650 50  0001 C CNN
+	1    8400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5250 9400 5250
+Wire Wire Line
+	9450 5350 9450 5250
+Wire Wire Line
+	9450 5350 9400 5350
+Connection ~ 9450 5350
+Wire Wire Line
+	9450 5600 9450 5350
+Wire Wire Line
+	8400 5600 9450 5600
+Connection ~ 8400 5600
+Wire Wire Line
+	8400 5250 8400 5600
+Wire Wire Line
+	8500 5250 8400 5250
+Wire Wire Line
+	8500 4750 8500 4850
+Text GLabel 8500 4750 1    50   Input ~ 0
+cell
+Wire Wire Line
+	9400 4850 9400 5150
+Wire Wire Line
+	8500 4850 9400 4850
+Connection ~ 8500 4850
+Wire Wire Line
+	8500 5150 8500 4850
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ex64lib)(type Legacy)(uri ${KIPRJMOD}/KiCAD/ex64lib.lib)(options "")(descr ""))
+)
