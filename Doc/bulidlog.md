@@ -119,7 +119,8 @@ BLE Micro Proを使用する場合はオンボード電源回路、秋月の電�
 表側に実装します。
 非常に小さい部品を使用していますので紛失に注意してください。
 部品をなくした場合は arrow.comやmouser.comなどで入手が可能です。
-実装できたら十分に観察して半田付けができていることを確認します。
+
+![](https://raw.githubusercontent.com/hatanoh/cscs_family/master/Doc/picture/power0.png)
 
 #### TPS61221
 まずTPS61221を実装します。チップ表面に線が引いてある方が1番pinです。
@@ -127,8 +128,6 @@ BLE Micro Proを使用する場合はオンボード電源回路、秋月の電�
 PCBのシルクの線の長い方に1番pinを向けて実装します。
 
 SMDクランプ http://www.proxi.co.jp/products/pamphlet_smd_clamp.htm でチップを抑えながら実装すると楽かもしれません。
-わたしは安いピンセットを折り曲げて作ったSMDクランプの「ような物」を使っています。
-![のようなもの]
 
 #### チップコンデンサ
 1608 チップコンデンサ10uF 2個を実装して下さい。
