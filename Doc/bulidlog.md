@@ -118,7 +118,7 @@ BLE Micro Proを使用する場合はオンボード電源回路、秋月の電�
 ### オンボード電源回路(オプション)
 表側に実装します。
 非常に小さい部品を使用していますので紛失に注意してください。
-部品をなくした場合は arrow.comやmouser.comなどで入手が可能です。
+部品をなくした場合は arrow.comやmouser.comなどで入手が可能です。(多少であれば融通できます)
 
 ![](https://raw.githubusercontent.com/hatanoh/cscs_family/master/Doc/picture/power0.png)
 
