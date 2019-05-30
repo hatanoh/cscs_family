@@ -20,3 +20,6 @@ cscsファミリは、中心部に記号向けの6つのキーがあるのが特
 [キーマップ(cscs64)](https://github.com/hatanoh/qmk_firmware/blob/nrf52/keyboards/cscs64_ble/keymaps/cscs64/keymap.c)や
 [キーマップ(cscs52)](https://github.com/hatanoh/qmk_firmware/blob/nrf52/keyboards/cscs64_ble/keymaps/cscs52/keymap.c)
 を参照のこと。
+
+# FAQ
+[FAQ](https://github.com/hatanoh/cscs_family/blob/master/FAQ.md)
