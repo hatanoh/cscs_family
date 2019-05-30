@@ -23,3 +23,5 @@ cscsファミリは、中心部に記号向けの6つのキーがあるのが特
 
 # FAQ
 [FAQ](https://github.com/hatanoh/cscs_family/blob/master/FAQ.md)
+
+BLE Micro Proの[FAQ](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/FAQ.md)も参照して下さい。
