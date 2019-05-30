@@ -3,7 +3,7 @@ cscs64 / cscs52 keyboards
 
 cscsファミリは、中心部に記号向けの6つのキーがあるのが特徴のキーボードで、mteiさんの[semi ergo](https://github.com/mtei/SemiErgo_Layout)フォーマットを参考にしています。
 
-また昇圧回路を搭載し単4電池1本で[BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro)を使用できるのも特徴の一つですです。
+また昇圧回路を搭載し単4電池1本で[BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro)を使用できるのも特徴の一つです。
 
 # ビルドガイド
 [Build Guide](https://github.com/hatanoh/cscs_family/blob/master/Doc/buildguide.md)
