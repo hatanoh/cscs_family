@@ -25,3 +25,5 @@ cscsファミリは、中心部に記号向けの6つのキーがあるのが特
 [FAQ](https://github.com/hatanoh/cscs_family/blob/master/FAQ.md)
 
 BLE Micro Proの[FAQ](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/FAQ.md)も参照して下さい。
+
+サリチル酸さんの[Bluetooth接続用のProMicro互換ボード「BLE Micro Pro」の話](https://salicylic-acid3.hatenablog.com/entry/BMP-Introduction)も非常に参考になります。
