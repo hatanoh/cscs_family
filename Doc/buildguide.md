@@ -278,7 +278,9 @@ promicroは部品面を下にして取り付けます。コンスルーヘッダ
 
 BLE micro PRO向け環境構築やビルドの手順は
 https://github.com/sekigon-gonnoc/BLE-Micro-Pro#%E3%83%93%E3%83%AB%E3%83%89%E7%92%B0%E5%A2%83
-を参照してください。
+や
+https://salicylic-acid3.hatenablog.com/entry/BMP-Introduction#%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E7%B7%A8
+参照してください。
 
 # ファームウェアの書き込み(有線)
 TBD
