@@ -143,6 +143,8 @@ BLE Micro Proを使用する場合はオンボード電源回路、秋月の電�
 ![TPS61221](https://raw.githubusercontent.com/hatanoh/cscs_family/master/Doc/picture/TPS61221.png)
 PCBのシルクの線の長い方に1番pinを向けて実装します。
 
+![SC70](https://raw.githubusercontent.com/hatanoh/cscs_family/master/Doc/picture/SC70-set.png)
+
 SMDクランプ http://www.proxi.co.jp/products/pamphlet_smd_clamp.htm でチップを抑えながら実装すると楽かもしれません。
 
 #### チップコンデンサ
