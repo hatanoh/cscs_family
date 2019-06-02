@@ -250,11 +250,13 @@ MXの場合、ネジは低頭ネジかキャップボルトか好きな方を使
 
 ## promicro あるいは BLE micro proの取り付け
 BLE micro proの場合には、USBコネクタを上側にして左側は上側にコンスルーヘッダをつけてください。
+![](https://raw.githubusercontent.com/hatanoh/cscs_family/master/Doc/picture/conthrough_BLE.jpg)
 BLE micro proは部品面を下にして取り付けます。コンスルーヘッダは半田付けはしないで下さい。
 
 コンスルーヘッダの向きは写真を参考にしてください。
 
 promicroの場合には、USBコネクタを上側にして左側は下側にコンスルーヘッダをつけてください。
+![](https://raw.githubusercontent.com/hatanoh/cscs_family/master/Doc/picture/conthrough_ProMicro.jpg)
 promicroは部品面を下にして取り付けます。コンスルーヘッダはProMicroに半田付けして下さい。基板側は半田付けしないでください。
 
 # ファームウェアの書き込み(無線)
