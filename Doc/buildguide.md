@@ -7,8 +7,6 @@ __有線で使用したいと思っていらっしゃる方はしばらくお待
 
 __また使用環境は[BLE Micro Pro](https://github.com/sekigon-gonnoc/BLE-Micro-Pro)に依存します。詳細はそちらを参照して下さい__
 
-Mac環境では接続ができないという話も聞いていますので注意してください。
-
 ## 作業の流れ
 フローチャートを用意しました。
 https://github.com/hatanoh/cscs_family/blob/master/Doc/flowchart.png
